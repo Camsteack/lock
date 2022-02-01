@@ -116,12 +116,14 @@
     "password-sheriff": "^1.1.1",
     "prop-types": "^15.8.0",
     "qs": "^6.10.2",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
     "react-transition-group": "^2.2.1",
     "trim": "^1.0.1",
     "url-join": "^1.1.0",
     "validator": "^13.6.0"
+  },
+  "peerDependencies": {
+    "react": "^15.6.2 ^16",
+    "react-dom": "^15.6.2 ^16"
   },
   "resolutions": {
     "node-fetch": "^2.6.1",
